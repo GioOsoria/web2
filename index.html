@@ -1,0 +1,87 @@
+<html>
+ <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+
+      <!--Estos son los codigos maestros
+      <a-box position="-1.6 0.5 -2" width= "1" depth="1" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1.75 0.75 -3" radius="0.5"height="1.5" color="#FFC65D"></a-cylinder>
+      <a-cone position="0.1 0.75 -2" rotation="180 0 0" segments-radial="4" height="1.5" radius-bottom="0" color="#9f7d4f">
+      <a-plane position="0 0 -4" rotation="-90 0 0" width= "5" height="6" color="#10323c"></a-plane>0.555
+      </a-cone> -->
+      <a-cylinder position="2 1.4 -1.11" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+        <a-cylinder position="2 1.35 -2.22" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+          <a-cylinder position="2 1.35 -3.33" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+            <a-cylinder position="2 1.35 -4.44" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+              <a-cylinder position="2 1.35 -5.55" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                <a-cylinder position="2 1.35 -6.66" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                  <a-cylinder position="1 1.35 -1.665" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                    <a-cylinder position="1 1.35 -2.775" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                      <a-cylinder position="1 1.35 -3.885" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                        <a-cylinder position="1 1.35 -4.995" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                         <a-cylinder position="1 1.35 -6.105" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                          <a-cylinder position="0 1.4 -1.11" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                            <a-cylinder position="0 1.35 -2.22" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                              <a-cylinder position="0 1.35 -3.33" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                                <a-cylinder position="0 1.35 -4.44" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                                  <a-cylinder position="0 1.35 -5.55" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                                    <a-cylinder position="0 1.35 -6.66" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                                      <a-cylinder position="-1 1.35 -1.665" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                                        <a-cylinder position="-1 1.35 -2.775" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                                          <a-cylinder position="-1 1.35 -3.885" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                                            <a-cylinder position="-1 1.35 -4.995" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                                              <a-cylinder position="-1 1.35 -6.105" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                                                <a-cylinder position="-2 1.4 -1.11" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                                                  <a-cylinder position="-2 1.35 -2.22" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                                                    <a-cylinder position="-2 1.35 -3.33" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+                                                      <a-cylinder position="-2 1.35 -4.44" radius="0.1"height="2.8" color="#065c2b"></a-cylinder>
+                                                        <a-cylinder position="-2 1.35 -5.55" radius="0.1"height="2.8" color="#00bb34"></a-cylinder>
+                                                          <a-cylinder position="-2 1.35 -6.66" radius="0.1"height="2.8" color="#00ab58"></a-cylinder>
+
+<!--Aquí se contruye la caja para nuestro espacio virtual central-->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width= "5" height="6" color="#f28c00"></a-plane> <!--Este es el piso-->
+      <a-plane position="0 1.5 -7" rotation="0 0 0" width= "5" height="3" color="#f25200"></a-plane> <!--Esta es la pared-->
+      <a-plane position="0 1.5 -7" rotation="180 0 0" width= "5" height="3" color="#f28c00"></a-plane> <!--Esta es la pared por la parte trasera, porque no supe como acomodarla y que se viualizara tanto la sombre y el frente-->      
+      <a-plane position="-0 3 -4" rotation="90 0 0" width= "5" height="6" color="#f28c00"></a-plane> <!--Este es el techo-->
+      <a-plane position="-2.5 1.5 -4" rotation="0 90 0" width= "6" height="3" color="#f25200"></a-plane> <!--Esta es la pared izquierda-->
+      <a-plane position="-2.5 1.5 -4" rotation="0 -90 0" width= "6" height="3" color="#f25200"></a-plane> <!--Esta es la pared izquierda por fuera-->
+      <a-plane position="2.5 1.5 -4" rotation="0 -90 0" width= "6" height="3" color="#f25200"></a-plane> <!--Esta es la pared derecha-->
+      
+
+<!--Aquí se contruye la caja para nuestro espacio virtual derecha-->
+            <a-plane position="5 0 -4" rotation="-90 0 0" width= "5" height="6" color="#3c3c3b"></a-plane> <!--Este es el piso-->
+              <a-plane position="5 1.5 -7" rotation="0 0 0" width= "5" height="3" color="#878787"></a-plane> <!--Esta es la pared-->
+                <a-plane position="5 1.5 -7" rotation="180 0 0" width= "5" height="3" color="#878787"></a-plane> <!--Esta es la pared por la parte trasera, porque no supe como acomodarla y que se viualizara tanto la sombre y el frente-->      
+                  <a-plane position="5 3 -4" rotation="90 0 0" width= "5" height="6" color="#3c3c3b"></a-plane> <!--Este es el techo-->
+                    <a-plane position="2.5 1.5 -4" rotation="0 90 0" width= "6" height="3" color="#878787"></a-plane> <!--Esta es la pared izquierda-->
+                      <a-plane position="7.5 1.5 -4" rotation="0 -90 0" width= "6" height="3" color="#878787"></a-plane> <!--Esta es la pared derecha-->
+                        <a-plane position="7.5 1.5 -4" rotation="0 90 0" width= "6" height="3" color="#878787"></a-plane> <!--Esta es la pared derecha-->
+
+              <a-sphere position="4.8 1.25 -5" radius="1.25" color="#479dce"></a-sphere>
+                <a-sphere position="6.18 2 -5" radius="0.25" color="#2c7100"></a-sphere>
+                  <a-sphere position="6.18 0.25 -5" radius="0.25" color="#2c7100"></a-sphere>
+
+<!--Aquí se contruye la caja para nuestro espacio virtual izquierda-->
+            <a-plane position="-5 0 -4" rotation="-90 0 0" width= "5" height="6" color="#fcbd0c"></a-plane> <!--Este es el piso-->
+              <a-plane position="-5 1.5 -7" rotation="0 0 0" width= "5" height="3" color="#ffdc00"></a-plane> <!--Esta es la pared-->
+                <a-plane position="-5 1.5 -7" rotation="180 0 0" width= "5" height="3" color="#fcbd0c"></a-plane> <!--Esta es la pared por la parte trasera, porque no supe como acomodarla y que se viualizara tanto la sombre y el frente-->      
+                  <a-plane position="-5 3 -4" rotation="90 0 0" width= "5" height="6" color="#ffdc00"></a-plane> <!--Este es el techo-->
+                    <a-plane position="-2.5 1.5 -4" rotation="0 -90 0" width= "6" height="3" color="#fcbd0c"></a-plane> <!--Esta es la pared derecha-->
+                      <a-plane position="-7.5 1.5 -4" rotation="0 -90 0" width= "6" height="3" color="#fcbd0c"></a-plane> <!--Esta es la pared izquierda-->
+                        <a-plane position="-7.5 1.5 -4" rotation="0 90 0" width= "6" height="3" color="#fcbd0c"></a-plane> <!--Esta es la pared izquierda por fuera-->
+                           <a-cone position="-5 1.5 -6" rotation="180 0 0" segments-radial="8" height="2.8" radius-bottom="0" color="#662483"></a-cone> 
+                              <a-cone position="-3.6 1.5 -3.8" rotation="180 0 0" segments-radial="8" height="2.8" radius-bottom="0" color="#432f4f"></a-cone>      
+                                 <a-cone position="-6.4 1.5 -3.3" rotation="180 0 0" segments-radial="8" height="2.7" radius-bottom="0" color="#9e75b2"></a-cone> 
+                                <a-dodecahedron position="-6 2.5 -6.4" radius="0.5" color="#b92400"></a-dodecahedron>
+
+      <a-sky color="#bebcdf"></a-sky>
+      <a-entity position="0 0 5">
+        <a-camera user-height="1.6">
+        </a-camera>
+      </a-entity>  
+    </a-scene>
+  </body>
+</html>  
